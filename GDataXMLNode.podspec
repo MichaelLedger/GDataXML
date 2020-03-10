@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.summary      = "Support CocoaPods for GDataXML."
 
-  spec.homepage     = "https://github.com/MichaelLedger/GDataXML-Demo"
+  spec.homepage     = "https://github.com/MichaelLedger/GDataXML"
 
   spec.license      = "MIT"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "6.0"
 
   # - WARN  | github_sources: Github repositories should end in `.git`.
-  spec.source       = { :git => "git@github.com:MichaelLedger/GDataXML-Demo.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "git@github.com:MichaelLedger/GDataXML.git", :tag => "#{spec.version}" }
 
   # - ERROR | xcodebuild:  /Users/MichaelLedger/Desktop/GDataXML-Demo/Classes/GDataXMLNode.m:313:16: error: ARC forbids explicit message send of 'release'
   spec.requires_arc = false
