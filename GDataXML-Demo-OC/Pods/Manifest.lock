@@ -2,15 +2,15 @@ PODS:
   - GDataXMLNode_iOS (1.1.0)
 
 DEPENDENCIES:
-  - GDataXMLNode_iOS (from `..`)
+  - GDataXMLNode_iOS
 
-EXTERNAL SOURCES:
-  GDataXMLNode_iOS:
-    :path: ".."
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GDataXMLNode_iOS
 
 SPEC CHECKSUMS:
   GDataXMLNode_iOS: 230d4d2f015f3e62fa580ac286e0c37526f80430
 
-PODFILE CHECKSUM: 14326cc9de0152627c626dc51efa966030e64785
+PODFILE CHECKSUM: 0f26aa3291cce370ad9657c0e63118fc8335e5e3
 
 COCOAPODS: 1.7.4

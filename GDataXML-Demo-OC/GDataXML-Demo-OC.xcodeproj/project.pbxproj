@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,12 @@
 		AA930443241738A400829049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA930442241738A400829049 /* Assets.xcassets */; };
 		AA930446241738A500829049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA930444241738A500829049 /* LaunchScreen.storyboard */; };
 		AA930449241738A500829049 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA930448241738A500829049 /* main.m */; };
+		AA93045024177A2E00829049 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = AA93044F24177A2E00829049 /* config.xml */; };
+		AA93045624177AA300829049 /* MLXMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA93045524177AA300829049 /* MLXMLWriter.m */; };
+		AA93045924177AC800829049 /* MLXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AA93045824177AC800829049 /* MLXMLParser.m */; };
+		AA93045D241788BE00829049 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = AA93045C241788BE00829049 /* Player.m */; };
+		AA930460241788FC00829049 /* Party.m in Sources */ = {isa = PBXBuildFile; fileRef = AA93045F241788FC00829049 /* Party.m */; };
+		AA93046424178D0200829049 /* party.xml in Resources */ = {isa = PBXBuildFile; fileRef = AA93046324178D0200829049 /* party.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,16 @@
 		AA930445241738A500829049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA930447241738A500829049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA930448241738A500829049 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA93044F24177A2E00829049 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		AA93045424177AA300829049 /* MLXMLWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLXMLWriter.h; sourceTree = "<group>"; };
+		AA93045524177AA300829049 /* MLXMLWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLXMLWriter.m; sourceTree = "<group>"; };
+		AA93045724177AC800829049 /* MLXMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLXMLParser.h; sourceTree = "<group>"; };
+		AA93045824177AC800829049 /* MLXMLParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLXMLParser.m; sourceTree = "<group>"; };
+		AA93045B241788BE00829049 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		AA93045C241788BE00829049 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		AA93045E241788FC00829049 /* Party.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Party.h; sourceTree = "<group>"; };
+		AA93045F241788FC00829049 /* Party.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Party.m; sourceTree = "<group>"; };
+		AA93046324178D0200829049 /* party.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = party.xml; sourceTree = "<group>"; };
 		AE9FAC4F65E4F780D246A2E5 /* Pods_GDataXML_Demo_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDataXML_Demo_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -68,6 +84,9 @@
 		AA930435241738A000829049 /* GDataXML-Demo-OC */ = {
 			isa = PBXGroup;
 			children = (
+				AA93045A241788AE00829049 /* Model */,
+				AA93045324177A4900829049 /* Helper */,
+				AA93045124177A3900829049 /* Resources */,
 				AA930436241738A000829049 /* AppDelegate.h */,
 				AA930437241738A000829049 /* AppDelegate.m */,
 				AA930439241738A000829049 /* SceneDelegate.h */,
@@ -83,13 +102,51 @@
 			path = "GDataXML-Demo-OC";
 			sourceTree = "<group>";
 		};
+		AA93045124177A3900829049 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA93045224177A3F00829049 /* XML */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA93045224177A3F00829049 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				AA93046324178D0200829049 /* party.xml */,
+				AA93044F24177A2E00829049 /* config.xml */,
+			);
+			path = XML;
+			sourceTree = "<group>";
+		};
+		AA93045324177A4900829049 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AA93045424177AA300829049 /* MLXMLWriter.h */,
+				AA93045524177AA300829049 /* MLXMLWriter.m */,
+				AA93045724177AC800829049 /* MLXMLParser.h */,
+				AA93045824177AC800829049 /* MLXMLParser.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AA93045A241788AE00829049 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA93045B241788BE00829049 /* Player.h */,
+				AA93045C241788BE00829049 /* Player.m */,
+				AA93045E241788FC00829049 /* Party.h */,
+				AA93045F241788FC00829049 /* Party.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BCC579C849D1D202D03E0F58 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				846D4F658A787758EFD64E07 /* Pods-GDataXML-Demo-OC.debug.xcconfig */,
 				4977410E38004F82CE2B30F8 /* Pods-GDataXML-Demo-OC.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -162,7 +219,9 @@
 			files = (
 				AA930446241738A500829049 /* LaunchScreen.storyboard in Resources */,
 				AA930443241738A400829049 /* Assets.xcassets in Resources */,
+				AA93046424178D0200829049 /* party.xml in Resources */,
 				AA930441241738A000829049 /* Main.storyboard in Resources */,
+				AA93045024177A2E00829049 /* config.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,8 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA93043E241738A000829049 /* ViewController.m in Sources */,
+				AA93045924177AC800829049 /* MLXMLParser.m in Sources */,
+				AA930460241788FC00829049 /* Party.m in Sources */,
 				AA930438241738A000829049 /* AppDelegate.m in Sources */,
+				AA93045624177AA300829049 /* MLXMLWriter.m in Sources */,
 				AA930449241738A500829049 /* main.m in Sources */,
+				AA93045D241788BE00829049 /* Player.m in Sources */,
 				AA93043B241738A000829049 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

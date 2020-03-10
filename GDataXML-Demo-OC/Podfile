@@ -6,5 +6,6 @@ target 'GDataXML-Demo-OC' do
   use_frameworks!
 
   # Pods for GDataXML-Demo-OC
-  pod 'GDataXMLNode_iOS', :path => '..'
+  # pod 'GDataXMLNode_iOS', :path => '..'
+  pod 'GDataXMLNode_iOS'
 end

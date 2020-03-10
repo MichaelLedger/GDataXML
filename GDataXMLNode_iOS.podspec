@@ -24,6 +24,8 @@ Pod::Spec.new do |spec|
   # - ERROR | [iOS] libraries: Libraries should omit the `lib` prefix  (`libxml2.tbd`)
   # - ERROR | [iOS] libraries: Libraries should not include the extension (`libxml2.2.dylib`)
   # - ERROR | [iOS] libraries: Libraries should omit the `lib` prefix  (`libxml2.2.dylib`)
+  # Other Linker Flags -> -l"xml2",-l"xml2.2"
+  # 自动链接libxml2.tbd、libxml2.2.dylib库
   spec.library      = "xml2","xml2.2"
   spec.xcconfig     = { 'HEADER_SEARCH_PATHS' => '/usr/include/libxml2' }
   

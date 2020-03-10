@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <OrderData  xmlns:name_space="http://www.baidu.com" xmlns="http://www.google.com/hk" attribute="party's attribute" HASH="1408108039">od0</OrderData>
+    <OrderData HASH="208524692">
+        <id>97</id>
+        <customer>
+            <CustomerData HASH="2128670187">cd</CustomerData>
+        </customer>
+        <billingAddress>ba</billingAddress>
+        <deliveryAddress>da</deliveryAddress>
+        <orderDetail>
+            <list>
+                <OrderDetailData HASH="516790072">odd10</OrderDetailData>
+                <OrderDetailData HASH="11226247">odd11</OrderDetailData>
+                <OrderDetailData HASH="11226247">odd12</OrderDetailData>
+            </list>
+        </orderDetail>
+        <log>l</log>
+    </OrderData>
+    <OrderData HASH="1502226778">odd20</OrderData>
+</list>
