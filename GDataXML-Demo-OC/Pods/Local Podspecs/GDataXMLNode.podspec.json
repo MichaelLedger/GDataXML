@@ -3,10 +3,7 @@
   "version": "0.0.1",
   "summary": "Support CocoaPods for GDataXML.",
   "homepage": "https://github.com/MichaelLedger/GDataXML",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "license": "MIT",
   "authors": {
     "Mountain Xiang": "MichaelLedger@163.com"
   },
