@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GDataXMLNode_iOS"
-  spec.version      = "1.0.0"
+  spec.version      = "1.1.0"
   spec.summary      = "Support CocoaPods for GDataXML."
 
   spec.homepage     = "https://github.com/MichaelLedger/GDataXML"

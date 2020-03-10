@@ -7,70 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F13754C637E68FFD2883EF82EF7CE1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41733339B4DBBB58426EA7683C581955 /* Foundation.framework */; };
-		2D30BD50459C837995E82C37D82AC775 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 60319B22CAD5E99F607A8D36E8FDFB54 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		316E722824F1BADBCD56E6E5C4AA9599 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBBF5A7BC5983B1B3FE4CBE434B0DB2 /* CoreFoundation.framework */; };
-		48F146DD278BC836563D03E7695E8ED0 /* GDataXMLNode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4DA303708C6CDE29AC99A7E82341D1 /* GDataXMLNode-dummy.m */; };
-		558E7B7B6A79F6FEC6BBB725E2A79BC3 /* Pods-GDataXML-Demo-OC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A221CEC01A835B90E705C72A0607F8F /* Pods-GDataXML-Demo-OC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EC6DCD97DB5696DC4C7E16C0A8A2B29 /* Pods-GDataXML-Demo-OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E1AB92A7C5B11D1EEB38AEA7439076 /* Pods-GDataXML-Demo-OC-dummy.m */; };
-		AAA594506639D165FBBDB1714C2D1DBF /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF8745C47E3FA7EC66D75317DA5C3BD /* GDataXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDAFD2309F0C77B75FEC7A8C6A72E632 /* GDataXMLNode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C50FDAEA84F5C84459D31E3B8A6A7101 /* GDataXMLNode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D377A0AB4E7EAF42A9A7C0711C9FBAB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41733339B4DBBB58426EA7683C581955 /* Foundation.framework */; };
+		557C18B17C41B04DE096EF7D3A0FD198 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBBF5A7BC5983B1B3FE4CBE434B0DB2 /* CoreFoundation.framework */; };
+		58C9EB10D9789A7B6C92D022CA894B42 /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB123DC1117379A58C423C8A3A468ED /* GDataXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D8B9642129431615E56D0F0058F45D2 /* GDataXMLNode_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59406AE50F6521F4EDB2BF834B4CEC9F /* GDataXMLNode_iOS-dummy.m */; };
+		64C1E10F4021375D4E3919F4854489C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41733339B4DBBB58426EA7683C581955 /* Foundation.framework */; };
+		6E39848572945FE213284EEB6FCDA925 /* GDataXMLNode_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DDA21E746A987D8F01D89A0C78E0D91 /* GDataXMLNode_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85096F7B63673014E9138ABBB5B84F59 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AAB3945D391C22E6C57A9FE3C21D9E /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		983AFE53B72AE37309C7697023A72B7A /* Pods-GDataXML-Demo-OC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A221CEC01A835B90E705C72A0607F8F /* Pods-GDataXML-Demo-OC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9C5DBB2106835AEC25D6F7BF40CAF6B /* Pods-GDataXML-Demo-OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E1AB92A7C5B11D1EEB38AEA7439076 /* Pods-GDataXML-Demo-OC-dummy.m */; };
+		F2B1F8FB44D6AAE96EE40B3B4E8A85B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41733339B4DBBB58426EA7683C581955 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D9D6D49D15BC354820E988EB1B1A522F /* PBXContainerItemProxy */ = {
+		8ED3A957B14464EBE28E9006ECCC4CC1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C74B49AE35EAD1D1E1F1AAE39E152D15;
-			remoteInfo = GDataXMLNode;
+			remoteGlobalIDString = B57C38CE28B1307B43E26070F6C31056;
+			remoteInfo = GDataXMLNode_iOS;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0005B4094B9EBA40164AA6F3469E4AED /* GDataXMLNode.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GDataXMLNode.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0AEB90C966FCE235822A7DD96B5AF577 /* GDataXMLNode_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GDataXMLNode_iOS-Info.plist"; sourceTree = "<group>"; };
+		12CD06F6FA2BC8E3433D16FC780252E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		13E1AB92A7C5B11D1EEB38AEA7439076 /* Pods-GDataXML-Demo-OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GDataXML-Demo-OC-dummy.m"; sourceTree = "<group>"; };
 		1BBBF5A7BC5983B1B3FE4CBE434B0DB2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		2606E1B370FF531C7DAFEEDB9817D371 /* GDataXMLNode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GDataXMLNode.framework; path = GDataXMLNode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		290D8795C13F2355FB89E8A8227A668E /* Pods-GDataXML-Demo-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDataXML-Demo-OC.debug.xcconfig"; sourceTree = "<group>"; };
 		3C04208697169BC350DA152C46969CC3 /* Pods-GDataXML-Demo-OC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GDataXML-Demo-OC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DDA21E746A987D8F01D89A0C78E0D91 /* GDataXMLNode_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDataXMLNode_iOS-umbrella.h"; sourceTree = "<group>"; };
 		41733339B4DBBB58426EA7683C581955 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4D84A45B9DF399031B2AA00E4E353D03 /* Pods-GDataXML-Demo-OC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GDataXML-Demo-OC.modulemap"; sourceTree = "<group>"; };
-		60319B22CAD5E99F607A8D36E8FDFB54 /* GDataXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = Classes/GDataXMLNode.m; sourceTree = "<group>"; };
+		59406AE50F6521F4EDB2BF834B4CEC9F /* GDataXMLNode_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GDataXMLNode_iOS-dummy.m"; sourceTree = "<group>"; };
 		649A8E2B028E24C00C8CDCB496C67308 /* Pods-GDataXML-Demo-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDataXML-Demo-OC.release.xcconfig"; sourceTree = "<group>"; };
 		6A221CEC01A835B90E705C72A0607F8F /* Pods-GDataXML-Demo-OC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GDataXML-Demo-OC-umbrella.h"; sourceTree = "<group>"; };
-		7BF8745C47E3FA7EC66D75317DA5C3BD /* GDataXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = Classes/GDataXMLNode.h; sourceTree = "<group>"; };
-		84052BC854F310F293B4085B7FE56BCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		86FE4024B2ED21E3C6CF65EFCF2EC1E5 /* GDataXMLNode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GDataXMLNode-Info.plist"; sourceTree = "<group>"; };
+		7238E0212566C961C856DBED0620A829 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		88C14A1A528F47DBC7F5AD869ACA20CD /* GDataXMLNode_iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GDataXMLNode_iOS.xcconfig; sourceTree = "<group>"; };
+		8FB123DC1117379A58C423C8A3A468ED /* GDataXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = Classes/GDataXMLNode.h; sourceTree = "<group>"; };
+		956127F38515C4BACF243F40D2C97366 /* GDataXMLNode_iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDataXMLNode_iOS-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB4DA303708C6CDE29AC99A7E82341D1 /* GDataXMLNode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GDataXMLNode-dummy.m"; sourceTree = "<group>"; };
-		AF6851072B05028D8252006FA7EB9C89 /* GDataXMLNode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GDataXMLNode.xcconfig; sourceTree = "<group>"; };
-		C50FDAEA84F5C84459D31E3B8A6A7101 /* GDataXMLNode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDataXMLNode-umbrella.h"; sourceTree = "<group>"; };
+		B473F614B8ED96009BDE5972787572DF /* GDataXMLNode_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GDataXMLNode_iOS.modulemap; sourceTree = "<group>"; };
+		BEA6F94B4D91771EB193F7AD043FBC6E /* GDataXMLNode_iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GDataXMLNode_iOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D0AAB3945D391C22E6C57A9FE3C21D9E /* GDataXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = Classes/GDataXMLNode.m; sourceTree = "<group>"; };
 		DBC7F58571CC6B6E7EE2084BFC77572E /* Pods-GDataXML-Demo-OC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GDataXML-Demo-OC-acknowledgements.plist"; sourceTree = "<group>"; };
 		DD98D55D3698E0826AAEA78D93DB52FB /* Pods-GDataXML-Demo-OC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GDataXML-Demo-OC-frameworks.sh"; sourceTree = "<group>"; };
-		E03C0BBD4DAC5B5B2CD574A9765B13B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E1F3B014027B66D0BB4EC329014CFCB3 /* Pods-GDataXML-Demo-OC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GDataXML-Demo-OC-Info.plist"; sourceTree = "<group>"; };
-		ED462E7564BBF4F1A72D4F17E0F56427 /* GDataXMLNode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GDataXMLNode.modulemap; sourceTree = "<group>"; };
-		F7FA35BE233AE7F45EFC5331672BF4E3 /* GDataXMLNode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDataXMLNode-prefix.pch"; sourceTree = "<group>"; };
+		F188C67DF61D9DD59C6A556053846D59 /* GDataXMLNode_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GDataXMLNode_iOS.framework; path = GDataXMLNode_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98865D468428A2B4EE0FB6846D1CA77 /* Pods_GDataXML_Demo_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GDataXML_Demo_OC.framework; path = "Pods-GDataXML-Demo-OC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		08734082EDAC93290B31157803E4C8E6 /* Frameworks */ = {
+		97023101154020C541E81D92844C089F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				316E722824F1BADBCD56E6E5C4AA9599 /* CoreFoundation.framework in Frameworks */,
-				0F13754C637E68FFD2883EF82EF7CE1E /* Foundation.framework in Frameworks */,
+				557C18B17C41B04DE096EF7D3A0FD198 /* CoreFoundation.framework in Frameworks */,
+				F2B1F8FB44D6AAE96EE40B3B4E8A85B4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C1A1393704B160C2216D7390AD8EE38 /* Frameworks */ = {
+		A7BEFD671E1DF68DF272D95DC551AC54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D377A0AB4E7EAF42A9A7C0711C9FBAB0 /* Foundation.framework in Frameworks */,
+				64C1E10F4021375D4E3919F4854489C4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,13 +93,35 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3C62C210C2A2CB1C7F8FFF1BFF0AC3AD /* Products */ = {
+		66DB3A6922EC47FDDC955FF836E9D6A3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2606E1B370FF531C7DAFEEDB9817D371 /* GDataXMLNode.framework */,
+				BEA6F94B4D91771EB193F7AD043FBC6E /* GDataXMLNode_iOS.podspec */,
+				12CD06F6FA2BC8E3433D16FC780252E9 /* LICENSE */,
+				7238E0212566C961C856DBED0620A829 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6D110FF8970AB6214B83564B8C1C7862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F188C67DF61D9DD59C6A556053846D59 /* GDataXMLNode_iOS.framework */,
 				F98865D468428A2B4EE0FB6846D1CA77 /* Pods_GDataXML_Demo_OC.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		720D8FDB544DB49324537A271D35A7B5 /* GDataXMLNode_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8FB123DC1117379A58C423C8A3A468ED /* GDataXMLNode.h */,
+				D0AAB3945D391C22E6C57A9FE3C21D9E /* GDataXMLNode.m */,
+				66DB3A6922EC47FDDC955FF836E9D6A3 /* Pod */,
+				A0E6154B79D3B27DAAB30126EDD38DBA /* Support Files */,
+			);
+			name = GDataXMLNode_iOS;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		845339AA1881027C591063CCA548F2F3 /* iOS */ = {
@@ -111,10 +133,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9C1DAD53E668B81C16DF42D3C27FEDE4 /* Development Pods */ = {
+		A0E6154B79D3B27DAAB30126EDD38DBA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E4F0719D028D8E419F3CA4B259C7A396 /* GDataXMLNode */,
+				B473F614B8ED96009BDE5972787572DF /* GDataXMLNode_iOS.modulemap */,
+				88C14A1A528F47DBC7F5AD869ACA20CD /* GDataXMLNode_iOS.xcconfig */,
+				59406AE50F6521F4EDB2BF834B4CEC9F /* GDataXMLNode_iOS-dummy.m */,
+				0AEB90C966FCE235822A7DD96B5AF577 /* GDataXMLNode_iOS-Info.plist */,
+				956127F38515C4BACF243F40D2C97366 /* GDataXMLNode_iOS-prefix.pch */,
+				3DDA21E746A987D8F01D89A0C78E0D91 /* GDataXMLNode_iOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "GDataXML-Demo-OC/Pods/Target Support Files/GDataXMLNode_iOS";
+			sourceTree = "<group>";
+		};
+		A5145762ED61942C7806A18E45C17DF2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				720D8FDB544DB49324537A271D35A7B5 /* GDataXMLNode_iOS */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -123,25 +159,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9C1DAD53E668B81C16DF42D3C27FEDE4 /* Development Pods */,
+				A5145762ED61942C7806A18E45C17DF2 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				3C62C210C2A2CB1C7F8FFF1BFF0AC3AD /* Products */,
+				6D110FF8970AB6214B83564B8C1C7862 /* Products */,
 				23E9B10918F1855A61046B372D85695A /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D4A47B8849A11FC9E76B3C1BFB18AE63 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ED462E7564BBF4F1A72D4F17E0F56427 /* GDataXMLNode.modulemap */,
-				AF6851072B05028D8252006FA7EB9C89 /* GDataXMLNode.xcconfig */,
-				AB4DA303708C6CDE29AC99A7E82341D1 /* GDataXMLNode-dummy.m */,
-				86FE4024B2ED21E3C6CF65EFCF2EC1E5 /* GDataXMLNode-Info.plist */,
-				F7FA35BE233AE7F45EFC5331672BF4E3 /* GDataXMLNode-prefix.pch */,
-				C50FDAEA84F5C84459D31E3B8A6A7101 /* GDataXMLNode-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "GDataXML-Demo-OC/Pods/Target Support Files/GDataXMLNode";
 			sourceTree = "<group>";
 		};
 		D7A4D15BBEBBDD27BF9FD39075C1A72D /* Pods-GDataXML-Demo-OC */ = {
@@ -161,82 +183,60 @@
 			path = "Target Support Files/Pods-GDataXML-Demo-OC";
 			sourceTree = "<group>";
 		};
-		E4F0719D028D8E419F3CA4B259C7A396 /* GDataXMLNode */ = {
-			isa = PBXGroup;
-			children = (
-				7BF8745C47E3FA7EC66D75317DA5C3BD /* GDataXMLNode.h */,
-				60319B22CAD5E99F607A8D36E8FDFB54 /* GDataXMLNode.m */,
-				E69395C7D730B581DFA1F47D383C2187 /* Pod */,
-				D4A47B8849A11FC9E76B3C1BFB18AE63 /* Support Files */,
-			);
-			name = GDataXMLNode;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		E69395C7D730B581DFA1F47D383C2187 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0005B4094B9EBA40164AA6F3469E4AED /* GDataXMLNode.podspec */,
-				84052BC854F310F293B4085B7FE56BCE /* LICENSE */,
-				E03C0BBD4DAC5B5B2CD574A9765B13B2 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		06F3F2E66CB2B8604384EC9A97E62112 /* Headers */ = {
+		4F3AAE1D473879E519C1432C02A4EEBB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDAFD2309F0C77B75FEC7A8C6A72E632 /* GDataXMLNode-umbrella.h in Headers */,
-				AAA594506639D165FBBDB1714C2D1DBF /* GDataXMLNode.h in Headers */,
+				58C9EB10D9789A7B6C92D022CA894B42 /* GDataXMLNode.h in Headers */,
+				6E39848572945FE213284EEB6FCDA925 /* GDataXMLNode_iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49CEF294DC5CC66FD05F7A45572C0567 /* Headers */ = {
+		CFB29613328C1375FFA5DDE837FAE750 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				558E7B7B6A79F6FEC6BBB725E2A79BC3 /* Pods-GDataXML-Demo-OC-umbrella.h in Headers */,
+				983AFE53B72AE37309C7697023A72B7A /* Pods-GDataXML-Demo-OC-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C74B49AE35EAD1D1E1F1AAE39E152D15 /* GDataXMLNode */ = {
+		B57C38CE28B1307B43E26070F6C31056 /* GDataXMLNode_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14722C34B02C98496824ACBB3F0B2C9C /* Build configuration list for PBXNativeTarget "GDataXMLNode" */;
+			buildConfigurationList = E06DE00E00C1301CF0594D2088D858FC /* Build configuration list for PBXNativeTarget "GDataXMLNode_iOS" */;
 			buildPhases = (
-				06F3F2E66CB2B8604384EC9A97E62112 /* Headers */,
-				1FF4F78852E158D755A7829E17C4471D /* Sources */,
-				08734082EDAC93290B31157803E4C8E6 /* Frameworks */,
-				388A6F641083F1C6959739B472C61ABC /* Resources */,
+				4F3AAE1D473879E519C1432C02A4EEBB /* Headers */,
+				FCC76201500CAC391CDB8A545EA3B145 /* Sources */,
+				97023101154020C541E81D92844C089F /* Frameworks */,
+				F50D0D2CF8BE69B5D9583972DF64136C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GDataXMLNode;
-			productName = GDataXMLNode;
-			productReference = 2606E1B370FF531C7DAFEEDB9817D371 /* GDataXMLNode.framework */;
+			name = GDataXMLNode_iOS;
+			productName = GDataXMLNode_iOS;
+			productReference = F188C67DF61D9DD59C6A556053846D59 /* GDataXMLNode_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FD33CF4C801AF5F81117724CFA4D6E44 /* Pods-GDataXML-Demo-OC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18591A9AF0E7E087495915157F482250 /* Build configuration list for PBXNativeTarget "Pods-GDataXML-Demo-OC" */;
+			buildConfigurationList = 737CAC2537885D555BBEDFA65C8B5B55 /* Build configuration list for PBXNativeTarget "Pods-GDataXML-Demo-OC" */;
 			buildPhases = (
-				49CEF294DC5CC66FD05F7A45572C0567 /* Headers */,
-				4A830B262AD2AB677674900D24B90C32 /* Sources */,
-				5C1A1393704B160C2216D7390AD8EE38 /* Frameworks */,
-				4FC5806B2E995FD16D23CD3D7696A3D9 /* Resources */,
+				CFB29613328C1375FFA5DDE837FAE750 /* Headers */,
+				1D9FDA56801F94FB6DD6BC8C6A2E88D9 /* Sources */,
+				A7BEFD671E1DF68DF272D95DC551AC54 /* Frameworks */,
+				B80FA71F46AC358A062FE0A3B8A57B04 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1E9B7F233C5D53BF7116443C3607186D /* PBXTargetDependency */,
+				3FFA6E1ABBE1CB083F055F4A224D5E24 /* PBXTargetDependency */,
 			);
 			name = "Pods-GDataXML-Demo-OC";
 			productName = "Pods-GDataXML-Demo-OC";
@@ -260,25 +260,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3C62C210C2A2CB1C7F8FFF1BFF0AC3AD /* Products */;
+			productRefGroup = 6D110FF8970AB6214B83564B8C1C7862 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C74B49AE35EAD1D1E1F1AAE39E152D15 /* GDataXMLNode */,
+				B57C38CE28B1307B43E26070F6C31056 /* GDataXMLNode_iOS */,
 				FD33CF4C801AF5F81117724CFA4D6E44 /* Pods-GDataXML-Demo-OC */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		388A6F641083F1C6959739B472C61ABC /* Resources */ = {
+		B80FA71F46AC358A062FE0A3B8A57B04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FC5806B2E995FD16D23CD3D7696A3D9 /* Resources */ = {
+		F50D0D2CF8BE69B5D9583972DF64136C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -288,40 +288,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1FF4F78852E158D755A7829E17C4471D /* Sources */ = {
+		1D9FDA56801F94FB6DD6BC8C6A2E88D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F146DD278BC836563D03E7695E8ED0 /* GDataXMLNode-dummy.m in Sources */,
-				2D30BD50459C837995E82C37D82AC775 /* GDataXMLNode.m in Sources */,
+				A9C5DBB2106835AEC25D6F7BF40CAF6B /* Pods-GDataXML-Demo-OC-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A830B262AD2AB677674900D24B90C32 /* Sources */ = {
+		FCC76201500CAC391CDB8A545EA3B145 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EC6DCD97DB5696DC4C7E16C0A8A2B29 /* Pods-GDataXML-Demo-OC-dummy.m in Sources */,
+				85096F7B63673014E9138ABBB5B84F59 /* GDataXMLNode.m in Sources */,
+				5D8B9642129431615E56D0F0058F45D2 /* GDataXMLNode_iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1E9B7F233C5D53BF7116443C3607186D /* PBXTargetDependency */ = {
+		3FFA6E1ABBE1CB083F055F4A224D5E24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = GDataXMLNode;
-			target = C74B49AE35EAD1D1E1F1AAE39E152D15 /* GDataXMLNode */;
-			targetProxy = D9D6D49D15BC354820E988EB1B1A522F /* PBXContainerItemProxy */;
+			name = GDataXMLNode_iOS;
+			target = B57C38CE28B1307B43E26070F6C31056 /* GDataXMLNode_iOS */;
+			targetProxy = 8ED3A957B14464EBE28E9006ECCC4CC1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0BED92DCE8F75EC4DD895C8A225F7563 /* Debug */ = {
+		42218F814D5D4FAE3041AC508489DD34 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 290D8795C13F2355FB89E8A8227A668E /* Pods-GDataXML-Demo-OC.debug.xcconfig */;
+			baseConfigurationReference = 88C14A1A528F47DBC7F5AD869ACA20CD /* GDataXMLNode_iOS.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -331,7 +330,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GDataXML-Demo-OC/Pods-GDataXML-Demo-OC-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GDataXMLNode_iOS/GDataXMLNode_iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GDataXMLNode_iOS/GDataXMLNode_iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,15 +339,12 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GDataXML-Demo-OC/Pods-GDataXML-Demo-OC.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/GDataXMLNode_iOS/GDataXMLNode_iOS.modulemap";
+				PRODUCT_MODULE_NAME = GDataXMLNode_iOS;
+				PRODUCT_NAME = GDataXMLNode_iOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -414,40 +411,6 @@
 			};
 			name = Release;
 		};
-		68A4B4BB03A8BBAA165518EA336E78AE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF6851072B05028D8252006FA7EB9C89 /* GDataXMLNode.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GDataXMLNode/GDataXMLNode-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GDataXMLNode/GDataXMLNode-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/GDataXMLNode/GDataXMLNode.modulemap";
-				PRODUCT_MODULE_NAME = GDataXMLNode;
-				PRODUCT_NAME = GDataXMLNode;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -512,7 +475,42 @@
 			};
 			name = Debug;
 		};
-		9C93AEB34ED9C6E52A1B063343523EC7 /* Release */ = {
+		8783D64BF32C8086A6B87180C20E611C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C14A1A528F47DBC7F5AD869ACA20CD /* GDataXMLNode_iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GDataXMLNode_iOS/GDataXMLNode_iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GDataXMLNode_iOS/GDataXMLNode_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GDataXMLNode_iOS/GDataXMLNode_iOS.modulemap";
+				PRODUCT_MODULE_NAME = GDataXMLNode_iOS;
+				PRODUCT_NAME = GDataXMLNode_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9378C5782831DE4ACDCE54DA3B7ACFA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 649A8E2B028E24C00C8CDCB496C67308 /* Pods-GDataXML-Demo-OC.release.xcconfig */;
 			buildSettings = {
@@ -550,10 +548,11 @@
 			};
 			name = Release;
 		};
-		E5866655DFE809600D7DA903F5B3233E /* Release */ = {
+		D6D3B4C044256036BD764DFC69298375 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF6851072B05028D8252006FA7EB9C89 /* GDataXMLNode.xcconfig */;
+			baseConfigurationReference = 290D8795C13F2355FB89E8A8227A668E /* Pods-GDataXML-Demo-OC.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -563,8 +562,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GDataXMLNode/GDataXMLNode-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GDataXMLNode/GDataXMLNode-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GDataXML-Demo-OC/Pods-GDataXML-Demo-OC-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -572,45 +570,47 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/GDataXMLNode/GDataXMLNode.modulemap";
-				PRODUCT_MODULE_NAME = GDataXMLNode;
-				PRODUCT_NAME = GDataXMLNode;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GDataXML-Demo-OC/Pods-GDataXML-Demo-OC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14722C34B02C98496824ACBB3F0B2C9C /* Build configuration list for PBXNativeTarget "GDataXMLNode" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				68A4B4BB03A8BBAA165518EA336E78AE /* Debug */,
-				E5866655DFE809600D7DA903F5B3233E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		18591A9AF0E7E087495915157F482250 /* Build configuration list for PBXNativeTarget "Pods-GDataXML-Demo-OC" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0BED92DCE8F75EC4DD895C8A225F7563 /* Debug */,
-				9C93AEB34ED9C6E52A1B063343523EC7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		737CAC2537885D555BBEDFA65C8B5B55 /* Build configuration list for PBXNativeTarget "Pods-GDataXML-Demo-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D3B4C044256036BD764DFC69298375 /* Debug */,
+				9378C5782831DE4ACDCE54DA3B7ACFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06DE00E00C1301CF0594D2088D858FC /* Build configuration list for PBXNativeTarget "GDataXMLNode_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42218F814D5D4FAE3041AC508489DD34 /* Debug */,
+				8783D64BF32C8086A6B87180C20E611C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

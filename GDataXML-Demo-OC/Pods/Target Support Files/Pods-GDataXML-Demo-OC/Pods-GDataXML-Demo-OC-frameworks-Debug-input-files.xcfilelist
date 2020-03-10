@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-GDataXML-Demo-OC/Pods-GDataXML-Demo-OC-frameworks.sh
-${BUILT_PRODUCTS_DIR}/GDataXMLNode/GDataXMLNode.framework
+${BUILT_PRODUCTS_DIR}/GDataXMLNode_iOS/GDataXMLNode_iOS.framework

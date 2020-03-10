@@ -12,6 +12,6 @@
 
 #import "GDataXMLNode.h"
 
-FOUNDATION_EXPORT double GDataXMLNodeVersionNumber;
-FOUNDATION_EXPORT const unsigned char GDataXMLNodeVersionString[];
+FOUNDATION_EXPORT double GDataXMLNode_iOSVersionNumber;
+FOUNDATION_EXPORT const unsigned char GDataXMLNode_iOSVersionString[];
 
