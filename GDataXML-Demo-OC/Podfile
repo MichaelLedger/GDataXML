@@ -8,4 +8,5 @@ target 'GDataXML-Demo-OC' do
   # Pods for GDataXML-Demo-OC
   # pod 'GDataXMLNode_iOS', :path => '..'
   pod 'GDataXMLNode_iOS'
+  pod 'KissXML', '~> 5.3.1'
 end

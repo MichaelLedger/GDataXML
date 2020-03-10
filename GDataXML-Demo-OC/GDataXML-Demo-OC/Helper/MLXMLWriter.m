@@ -11,6 +11,8 @@
 #import "Party.h"
 #import "Player.h"
 
+#import <KissXML/KissXML.h>
+
 @implementation MLXMLWriter
 
 + (void)writeXMLDemo {
@@ -53,6 +55,27 @@
     NSData *xmlData = [doc XMLData];
     NSString *filePath = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"party.xml"];
     [xmlData writeToFile:filePath atomically:YES];
+}
+
++ (void)writeXMLDemoUsingKissXML {
+    DDXMLElement *peopleElement = [DDXMLElement elementWithName:@"PEOPLE"];
+    DDXMLNode *peopleID = [DDXMLNode attributeWithName:@"ID" stringValue:@"123456"];
+    [peopleElement addAttribute:peopleID];
+       
+    DDXMLElement *nameElement = [DDXMLElement elementWithName:@"NAME" stringValue:@"张三"];
+    DDXMLElement *ageElement = [DDXMLElement elementWithName:@"AGE" stringValue:@"18"];
+    DDXMLElement *sexElement = [DDXMLElement elementWithName:@"SEX" stringValue:@"MAN"];
+        
+    [peopleElement addChild:nameElement];
+    [peopleElement addChild:ageElement];
+    [peopleElement addChild:sexElement];
+    
+    DDXMLDocument *peopleDocument = [[DDXMLDocument alloc] initWithXMLString:peopleElement.XMLString options:0 error:nil];
+//    NSData *prettyData = [peopleDocument XMLDataWithOptions:DDXMLNodePrettyPrint];
+//    DDXMLDocument *peopleDocument_pretty = [[DDXMLDocument alloc] initWithData:prettyData options:0 error:nil];
+    NSString *path = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"people.xml"];
+    //支持自动换行
+    [[peopleDocument XMLDataWithOptions:DDXMLNodePrettyPrint] writeToFile:path atomically:YES];
 }
 
 @end

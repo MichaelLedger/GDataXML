@@ -22,6 +22,8 @@
     [MLXMLParser parseXMLDemo];
     [MLXMLWriter writeXMLDemo];
     
+    [MLXMLWriter writeXMLDemoUsingKissXML];
+    
     return YES;
 }
 
