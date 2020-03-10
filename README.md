@@ -1,2 +1,2 @@
-# GDataXML-Demo
+# GDataXM
 Support CocoaPods for GDataXML
