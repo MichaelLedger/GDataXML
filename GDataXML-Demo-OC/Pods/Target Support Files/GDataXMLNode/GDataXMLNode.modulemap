@@ -1,0 +1,6 @@
+framework module GDataXMLNode {
+  umbrella header "GDataXMLNode-umbrella.h"
+
+  export *
+  module * { export * }
+}

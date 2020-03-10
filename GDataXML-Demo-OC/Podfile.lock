@@ -1,0 +1,16 @@
+PODS:
+  - GDataXMLNode (0.0.1)
+
+DEPENDENCIES:
+  - GDataXMLNode (from `../Classes`)
+
+EXTERNAL SOURCES:
+  GDataXMLNode:
+    :path: "../Classes"
+
+SPEC CHECKSUMS:
+  GDataXMLNode: c57b9e793e8f8139e68fdd7b5b69ef32d044462d
+
+PODFILE CHECKSUM: 0b59d0e3207667db9f2a31a794d12318559d2d9b
+
+COCOAPODS: 1.7.4

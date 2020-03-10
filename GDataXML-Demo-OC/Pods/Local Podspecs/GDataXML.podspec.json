@@ -1,0 +1,33 @@
+{
+  "name": "GDataXMLNode",
+  "version": "0.0.1",
+  "summary": "Support CocoaPods for GDataXML.",
+  "homepage": "https://github.com/MichaelLedger/GDataXML",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mountain Xiang": "MichaelLedger@163.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "git": "git@github.com:MichaelLedger/GDataXML.git",
+    "tag": "0.0.1"
+  },
+  "requires_arc": false,
+  "source_files": "*.{h,m}",
+  "frameworks": [
+    "CoreFoundation",
+    "Foundation"
+  ],
+  "libraries": [
+    "xml2",
+    "xml2.2"
+  ],
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "/usr/include/libxml2"
+  }
+}
