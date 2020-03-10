@@ -1,2 +1,2 @@
 # GDataXML
-Support CocoaPods for GDataXML
+Support CocoaPods for GDataXML.
