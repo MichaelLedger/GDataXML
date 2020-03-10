@@ -13,7 +13,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "6.0"
 
   # - WARN  | github_sources: Github repositories should end in `.git`.
-  spec.source       = { :git => "git@github.com:MichaelLedger/GDataXML.git", :tag => "#{spec.version}" }
+  # - WARN  | source: Git SSH URLs will NOT work for people behind firewalls configured to only allow HTTP, therefore HTTPS is preferred.
+  spec.source       = { :git => "https://github.com/MichaelLedger/GDataXML.git", :tag => "#{spec.version}" }
 
   # - ERROR | xcodebuild:  /Users/MichaelLedger/Desktop/GDataXML-Demo/Classes/GDataXMLNode.m:313:16: error: ARC forbids explicit message send of 'release'
   spec.requires_arc = false
