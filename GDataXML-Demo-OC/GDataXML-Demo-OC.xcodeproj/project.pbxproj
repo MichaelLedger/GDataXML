@@ -21,6 +21,7 @@
 		AA93045D241788BE00829049 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = AA93045C241788BE00829049 /* Player.m */; };
 		AA930460241788FC00829049 /* Party.m in Sources */ = {isa = PBXBuildFile; fileRef = AA93045F241788FC00829049 /* Party.m */; };
 		AA93046424178D0200829049 /* party.xml in Resources */ = {isa = PBXBuildFile; fileRef = AA93046324178D0200829049 /* party.xml */; };
+		AA9304662417AB0A00829049 /* people.xml in Resources */ = {isa = PBXBuildFile; fileRef = AA9304652417AB0A00829049 /* people.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		AA93045E241788FC00829049 /* Party.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Party.h; sourceTree = "<group>"; };
 		AA93045F241788FC00829049 /* Party.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Party.m; sourceTree = "<group>"; };
 		AA93046324178D0200829049 /* party.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = party.xml; sourceTree = "<group>"; };
+		AA9304652417AB0A00829049 /* people.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = people.xml; sourceTree = "<group>"; };
 		AE9FAC4F65E4F780D246A2E5 /* Pods_GDataXML_Demo_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDataXML_Demo_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				AA93046324178D0200829049 /* party.xml */,
+				AA9304652417AB0A00829049 /* people.xml */,
 				AA93044F24177A2E00829049 /* config.xml */,
 			);
 			path = XML;
@@ -221,6 +224,7 @@
 				AA930443241738A400829049 /* Assets.xcassets in Resources */,
 				AA93046424178D0200829049 /* party.xml in Resources */,
 				AA930441241738A000829049 /* Main.storyboard in Resources */,
+				AA9304662417AB0A00829049 /* people.xml in Resources */,
 				AA93045024177A2E00829049 /* config.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
