@@ -1,6 +1,16 @@
 # GDataXML
 *Support CocoaPods for GDataXML, create XML with automatic line breaks and CDATA format.*
 
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<PEOPLE ID="123456">
+  <TEST><![CDATA[You will see this in the document and can use reserved characters like < > & ""]]></TEST>
+  <NAME>张三</NAME>
+  <AGE>18</AGE>
+  <SEX>MAN</SEX>
+</PEOPLE>
+```
+
 ## Installation with CocoaPods
 
 [CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like GDataXMLNode_iOS in your projects.
