@@ -1,5 +1,5 @@
 PODS:
-  - GDataXMLNode_iOS (1.1.0)
+  - GDataXMLNode_iOS (3.1.0)
   - KissXML (5.3.1):
     - KissXML/All (= 5.3.1)
   - KissXML/Additions (5.3.1):
@@ -10,7 +10,7 @@ PODS:
   - KissXML/Core (5.3.1)
 
 DEPENDENCIES:
-  - GDataXMLNode_iOS
+  - GDataXMLNode_iOS (~> 3.1.0)
   - KissXML (~> 5.3.1)
 
 SPEC REPOS:
@@ -19,9 +19,9 @@ SPEC REPOS:
     - KissXML
 
 SPEC CHECKSUMS:
-  GDataXMLNode_iOS: 230d4d2f015f3e62fa580ac286e0c37526f80430
+  GDataXMLNode_iOS: 241fb0954c7a17392d13b2342f643423bb64aeee
   KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
 
-PODFILE CHECKSUM: c54d15393ab72ce2fca19e8a0a3ca7f886f8ca79
+PODFILE CHECKSUM: f3e132469e4c9a266a260c20392a8f74a68cd50b
 
 COCOAPODS: 1.7.4
