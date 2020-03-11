@@ -23,6 +23,9 @@ NS_ASSUME_NONNULL_BEGIN
 @interface DDXMLElement : DDXMLNode
 {
 }
+#pragma mark --- Initialization ---
+// support create element with cdata value by MichaelLedger
+- (instancetype)initWithName:(NSString *)name cdataStringValue:(nullable NSString *)cdataString;
 
 - (instancetype)initWithName:(NSString *)name;
 - (instancetype)initWithName:(NSString *)name URI:(nullable NSString *)URI;

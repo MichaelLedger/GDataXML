@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)parseXMLDemo;
 
++ (void)parseXMLDemoUsingKissXML;
+
 @end
 
 NS_ASSUME_NONNULL_END

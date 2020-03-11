@@ -56,6 +56,19 @@
 	return nil;
 }
 
+#pragma mark --- Initialization ---
+// support create element with cdata value by MichaelLedger
+- (instancetype)initWithName:(NSString *)name cdataStringValue:(nullable NSString *)cdataString
+{
+    NSString *elementString = [NSString stringWithFormat:@"<%@><![CDATA[%@]]></%@>", name, cdataString, name];
+    NSError *error = nil;
+    DDXMLElement *element = [[DDXMLElement alloc] initWithXMLString:elementString error:&error];
+    if (error) {
+        return nil;
+    }
+    return [element copy];
+}
+
 - (instancetype)initWithName:(NSString *)name
 {
 	// Note: Make every guarantee that genericPtr is not null

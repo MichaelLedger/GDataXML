@@ -1,2 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Party xmlns:namespace="http://www.baidu.com" xmlns="http://www.google.com/hk" attribute="party's attribute"><Player><Name>player_0</Name><Level>7</Level><Class>Wizard</Class></Player><Player><Name>player_1</Name><Level>4</Level><Class>Fighter</Class></Player><Player><Name>player_2</Name><Level>6</Level><Class>Rogue</Class></Player><Player><Name>player_3</Name><Level>3</Level><Class>Fighter</Class></Player><Player><Name>player_4</Name><Level>4</Level><Class>Wizard</Class></Player><Player><Name>player_5</Name><Level>7</Level><Class>Fighter</Class></Player><Player><Name>player_6</Name><Level>4</Level><Class>Wizard</Class></Player></Party>
+<Party xmlns:namespace="http://www.baidu.com" xmlns="http://www.google.com/hk" attribute="party's attribute">
+  <Player>
+    <Name>player_1</Name>
+    <Level>8</Level>
+    <Class>Fighter</Class>
+  </Player>
+  <TEST><![CDATA[You will see this in the document and can use reserved characters like < > & ""]]></TEST>
+  <Player>
+    <Name>player_2</Name>
+    <Level>7</Level>
+    <Class>Fighter</Class>
+  </Player>
+  <TEST><![CDATA[You will see this in the document and can use reserved characters like < > & ""]]></TEST>
+  <Player>
+    <Name>player_3</Name>
+    <Level>4</Level>
+    <Class>Rogue</Class>
+  </Player>
+  <TEST><![CDATA[You will see this in the document and can use reserved characters like < > & ""]]></TEST>
+  <Player>
+    <Name>player_4</Name>
+    <Level>3</Level>
+    <Class>Rogue</Class>
+  </Player>
+  <TEST><![CDATA[You will see this in the document and can use reserved characters like < > & ""]]></TEST>
+  <Player>
+    <Name>player_5</Name>
+    <Level>7</Level>
+    <Class>Fighter</Class>
+  </Player>
+  <TEST><![CDATA[You will see this in the document and can use reserved characters like < > & ""]]></TEST>
+  <Player>
+    <Name>player_6</Name>
+    <Level>4</Level>
+    <Class>Rogue</Class>
+  </Player>
+  <TEST><![CDATA[You will see this in the document and can use reserved characters like < > & ""]]></TEST>
+  <Player>
+    <Name>player_7</Name>
+    <Level>6</Level>
+    <Class>Fighter</Class>
+  </Player>
+  <TEST><![CDATA[You will see this in the document and can use reserved characters like < > & ""]]></TEST>
+  <Player>
+    <Name>player_8</Name>
+    <Level>1</Level>
+    <Class>Wizard</Class>
+  </Player>
+  <TEST><![CDATA[You will see this in the document and can use reserved characters like < > & ""]]></TEST>
+  <Player>
+    <Name>player_9</Name>
+    <Level>1</Level>
+    <Class>Fighter</Class>
+  </Player>
+  <TEST><![CDATA[You will see this in the document and can use reserved characters like < > & ""]]></TEST>
+</Party>

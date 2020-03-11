@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PEOPLE ID="123456">
+  <TEST><![CDATA[You will see this in the document and can use reserved characters like < > & ""]]></TEST>
   <NAME>张三</NAME>
   <AGE>18</AGE>
   <SEX>MAN</SEX>

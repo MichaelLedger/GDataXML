@@ -139,6 +139,7 @@ typedef NSUInteger GDataXMLNodeKind;
 - (GDataXMLNodeKind)kind;
 
 - (NSString *)XMLString;
+- (NSString *)XMLString_Pretty;
 
 + (NSString *)localNameForName:(NSString *)name;
 + (NSString *)prefixForName:(NSString *)name;
@@ -162,6 +163,10 @@ typedef NSUInteger GDataXMLNodeKind;
 
 
 @interface GDataXMLElement : GDataXMLNode
+
+#pragma mark --- Initialization ---
+// support create element with cdata value by MichaelLedger
+- (instancetype)initWithName:(NSString *)name cdataStringValue:(nullable NSString *)cdataString;
 
 - (id)initWithXMLString:(NSString *)str error:(NSError **)error;
 
