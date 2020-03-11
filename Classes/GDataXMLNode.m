@@ -466,6 +466,36 @@ static xmlChar *SplitQNameReverse(const xmlChar *qname, xmlChar **prefix) {
   return trimmed;
 }
 
+- (NSString *)XMLString_Pretty {
+
+  NSString *str = nil;
+
+  if (xmlNode_ != NULL) {
+
+    xmlBufferPtr buff = xmlBufferCreate();
+    if (buff) {
+
+      xmlDocPtr doc = NULL;
+      int level = 0;
+      int format = 1;
+
+      int result = xmlNodeDump(buff, doc, xmlNode_, level, format);
+
+      if (result > -1) {
+        str = [[[NSString alloc] initWithBytes:(xmlBufferContent(buff))
+                                        length:(xmlBufferLength(buff))
+                                      encoding:NSUTF8StringEncoding] autorelease];
+      }
+      xmlBufferFree(buff);
+    }
+  }
+
+  // remove leading and trailing whitespace
+  NSCharacterSet *ws = [NSCharacterSet whitespaceAndNewlineCharacterSet];
+  NSString *trimmed = [str stringByTrimmingCharactersInSet:ws];
+  return trimmed;
+}
+
 - (NSString *)localName {
   NSString *str = nil;
 
@@ -900,7 +930,27 @@ static xmlChar *SplitQNameReverse(const xmlChar *qname, xmlChar **prefix) {
 
 @implementation GDataXMLElement
 
+#pragma mark --- Initialization ---
+// support create element with cdata value by MichaelLedger
+- (instancetype)initWithName:(NSString *)name cdataStringValue:(nullable NSString *)cdataString
+{
+    if (cdataString == nil) {
+        cdataString = @"";
+    }
+    NSString *elementString = [NSString stringWithFormat:@"<%@><![CDATA[%@]]></%@>", name, cdataString, name];
+    NSError *error = nil;
+    GDataXMLElement *element = [[GDataXMLElement alloc] initWithXMLString:elementString option:XML_PARSE_NOBLANKS error:&error];
+    if (error) {
+        return nil;
+    }
+    return [element copy];
+}
+
 - (id)initWithXMLString:(NSString *)str error:(NSError **)error {
+    return [self initWithXMLString:str option:kGDataXMLParseOptions error:error];
+}
+
+- (id)initWithXMLString:(NSString *)str option:(xmlParserOption)option error:(NSError **)error {
   self = [super init];
   if (self) {
 
@@ -908,7 +958,7 @@ static xmlChar *SplitQNameReverse(const xmlChar *qname, xmlChar **prefix) {
     // NOTE: We are assuming a string length that fits into an int
     xmlDocPtr doc = xmlReadMemory(utf8Str, (int)strlen(utf8Str), NULL, // URL
                                   NULL, // encoding
-                                  kGDataXMLParseOptions);
+                                  option);
     if (doc == NULL) {
       if (error) {
         // TODO(grobbins) use xmlSetGenericErrorFunc to capture error

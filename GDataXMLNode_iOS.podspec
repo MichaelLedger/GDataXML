@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GDataXMLNode_iOS"
-  spec.version      = "2.0.0"
+  spec.version      = "3.0.0"
   spec.summary      = "Support CocoaPods for GDataXML, create XML with automatic line breaks and CDATA format."
 
   spec.homepage     = "https://github.com/MichaelLedger/GDataXML"
