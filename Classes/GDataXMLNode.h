@@ -166,7 +166,7 @@ typedef NSUInteger GDataXMLNodeKind;
 
 #pragma mark --- Initialization ---
 // support create element with cdata value by MichaelLedger
-- (instancetype)initWithName:(NSString *)name cdataStringValue:(nullable NSString *)cdataString;
+- (instancetype)initWithName:(NSString *)name cdataStringValue:(NSString *)cdataString;
 
 - (id)initWithXMLString:(NSString *)str error:(NSError **)error;
 
