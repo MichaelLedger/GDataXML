@@ -21,7 +21,7 @@ You can install it with the following command:
 $ gem install cocoapods
 ```
 
-> CocoaPods 0.39.0+ is required to build GDataXMLNode_iOS 3.0.0+.
+> CocoaPods 0.39.0+ is required to build GDataXMLNode_iOS 3.1.0+.
 
 #### Podfile
 
@@ -32,7 +32,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '6.0'
 
 target 'TargetName' do
-pod 'GDataXMLNode_iOS', '~> 3.0.0'
+pod 'GDataXMLNode_iOS', '~> 3.1.0'
 end
 ```
 
