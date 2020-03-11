@@ -1,6 +1,5 @@
 # GDataXML
-
-Support CocoaPods for GDataXML.
+Support CocoaPods for GDataXML, create XML with automatic line breaks and CDATA format.
 
 
 ### Terminal Commands
