@@ -1,8 +1,38 @@
 # GDataXML
-Support CocoaPods for GDataXML, create XML with automatic line breaks and CDATA format.
+*Support CocoaPods for GDataXML, create XML with automatic line breaks and CDATA format.*
 
+## Installation with CocoaPods
 
-### Terminal Commands
+[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like GDataXMLNode_iOS in your projects.
+
+You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+> CocoaPods 0.39.0+ is required to build GDataXMLNode_iOS 2.0.0+.
+
+#### Podfile
+
+To integrate GDataXMLNode_iOS into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '6.0'
+
+target 'TargetName' do
+pod 'GDataXMLNode_iOS', '~> 2.0.0'
+end
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+## Terminal Commands
 ```
 $ pod spec create GDataXMLNode
 $ pod lib lint --allow-warnings
