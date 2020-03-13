@@ -127,3 +127,23 @@ pod 'GDataXMLNode_iOS', '~> 1.1.0'
 - Source:   https://github.com/MichaelLedger/GDataXML.git
 - Versions: 1.1.0 [master repo]
 ```
+
+```
+$ pod search GDataXMLNode_iOS
+/Users/mxr/.rvm/gems/ruby-2.0.0-p643/gems/cocoapods-1.7.4/lib/cocoapods/executable.rb:93: warning: Insecure world writable dir /Users/mxr in PATH, mode 040777
+Creating search index for spec repo 'aliyun'.. Done!
+Creating search index for spec repo 'aliyun-1'.. Done!
+Creating search index for spec repo 'master'..
+```
+这是因为你的主文件夹只能被你写入，不能被其他人写入，这里存在一个权限问题，和gem有关，解决办法是：
+```
+$ sudo chmod go-w /Users/mxr
+````
+这里的/Users/mxr要和警告中保持一致，博主在网上看到很多人都写的/usr/lcoal,这样是没用的，已踩坑，遇到需谨慎。
+```
+$ pod search GDataXMLNode_iOS
+Creating search index for spec repo 'aliyun'.. Done!
+Creating search index for spec repo 'aliyun-1'.. Done!
+Creating search index for spec repo 'master'..
+
+```
