@@ -42,6 +42,14 @@ Then, run the following command:
 $ pod install
 ```
 
+## Support CDATA format quickly
+
+You could just replace following define options in `GDataXMLNode.m` to support CDATA format:
+```
+// static const int kGDataXMLParseOptions = (XML_PARSE_NOCDATA | XML_PARSE_NOBLANKS);
+static const int kGDataXMLParseOptions = (XML_PARSE_NOBLANKS);
+```
+
 ## Terminal Commands
 ```
 $ pod spec create GDataXMLNode
